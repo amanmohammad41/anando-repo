@@ -1,0 +1,252 @@
+body{
+    font-family: 'Poppins', sans-serif;
+      background-color: #fff;
+    /* color: whitesmoke; */
+}
+
+
+ /* header start  */ 
+ .main-section{
+   background-color: #0A0826;
+   color: whitesmoke;
+   border-radius: 10px;
+  
+   
+   
+  
+   
+ }
+ header{
+    display: flex;
+     justify-content: space-evenly;
+ }
+ nav ul{
+   display: inline-flex;
+   gap: 30px;
+ }
+ nav li{
+list-style: none;   
+ }
+ .port-name{
+font-size: 30px;
+ }
+ 
+ nav a{
+    text-decoration: none;
+     color: whitesmoke;
+    font-size: 20px;
+ }
+ .dropdown{
+    display: none;
+    
+    position: absolute;
+
+ }
+ nav>ul>li:hover>.dropdown {
+    display: block;
+ }
+ /* <!-- body section start --> */
+ .about-me{
+   display: flex;
+   justify-content: center;
+
+ }
+ .fahad{
+   margin-top: 50px;
+ }
+ 
+ .about-me h1{
+   font-size: 40px;
+ }
+ .about-me p{
+   font-size: 20px;
+ }
+ span{
+   color: rgba(241, 71, 29, 0.938);
+ }
+ button{
+
+   background-color: rgba(241, 71, 29, 0.938);
+   padding: 15px;
+   border-radius: 10px;
+
+ }
+ button a{
+   text-decoration: none;
+   color:whitesmoke;
+   font-size: 1.5em;
+ }
+ .fahad-pic{
+   margin-left: 150px;
+   margin-top: 50px;
+ } 
+ .fahad-pic img{
+   height: 500px;
+   width: 500px;
+   border-radius: 50%;
+  
+
+ }
+
+
+ .details{
+   background-color: #fff;
+   color: black;
+   margin-top: 50px;
+ }
+ .about{ 
+   font-size: 1em;
+   background-color: #0A0826;
+   width: fit-content;
+   border-radius: 5px;
+   color: #fff;
+ }
+ .know-me{
+   font-size: 3em;
+ }
+ section .deatails{
+  background-color: #fff;
+ 
+ }
+ .work-deatails{
+  margin-left: 120px;
+  display: flex;
+  gap: 55px;
+  width: 75%;
+  
+  
+ 
+ }
+ .description{
+  font-size:3em;
+ 
+
+ }
+ .description span{
+  color: rgba(241, 71, 29, 0.938);
+ }
+ .box-description{
+  
+ }
+ .description-two{
+   font-size: 3em;
+ }
+ .description-three{
+  text-align: justify;
+  font-size: 1.3em;
+ 
+ }
+ .exprience-area{
+  background-color: #0A0826;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+ }
+ .year{
+  font-size: 10em;
+  text-align: center;
+  color:rgba(241, 71, 29, 0.938);
+  
+ }
+ h3 strong{
+  font-size: 20px;
+ }
+ .deatail-twos{
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+ }
+ /* <!-- main details end --> */
+
+
+
+ /* <!-- doing section start --> */
+
+ .do-section{
+  background-color: #fff;
+  margin-top: 150px;
+ }
+ .do{
+  background-color: #0A0826;
+  width: fit-content;
+  color: #fff;
+  font-size: 1em;
+ }
+ .project-sec{
+  font-size:3em;
+ }
+ .articles{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+  margin-left: 100px;
+  grid-column-gap: 30px;
+
+ }
+ .article-one{
+
+ }
+ .pic-one{
+
+ }
+ .marketing{
+  height: 250px;
+  width: 250px;
+ }
+ 
+/* <!-- doing section start --> */
+
+
+
+/* <!-- contact sec start  --> */
+
+.contact-sec{
+  background-color: #0A0826;
+  color:whitesmoke;
+  border-radius: 10px;
+}
+.slides{
+  display: flex;
+  gap: 150px;
+}
+.slide-one{
+  width: 50%;
+  margin-left: 120px;
+}
+.collab-msg{
+  font-size: 2.5em;
+}
+.icon i{
+ padding: 10px;
+
+}
+.icon i:hover{
+  color: rgba(241, 71, 29, 0.938);;
+}
+.form-side{
+  font-size: 2.5em;
+}
+input{
+  width: 500px;
+  height: 50px;
+  background-color: #0A0826;
+  color: #fff;
+  margin-bottom: 10px;
+}
+/* <!-- contact sec end  --> */
+
+footer{
+  background-color: black;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 0.5px;
+}
+.all-one{
+  display: flex;
+}
+.one{
+  margin-left:110px ;
+}
+.two{
+  margin-left: 200px;
+}
