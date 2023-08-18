@@ -250,3 +250,245 @@ footer{
 .two{
   margin-left: 200px;
 }
+
+@media (max-width:400px) {
+      .main-section{
+        background-color: #0A0826;
+      }
+      header{
+        display: inline;
+      }
+      .about-me{
+        display:flex;
+        justify-content: center;
+      }
+      .about-me p{
+        font-size: 15px;
+      }
+      .fahad{
+        margin-left: 35px;
+        margin-bottom: 45px;
+      }
+      button{
+        padding: 5px;
+        border-radius: 5px;
+      }
+       button a{
+        font-size: 1em;
+
+       }
+      .about-me h1{
+        font-size: 15px;
+     
+      }
+      .fahad-pic img{
+        height: 100px;
+        width: 75px;
+        border-radius: 50%;
+        margin-right: 25px;
+      }
+      .work-deatails{
+        display: inline;
+        gap: 10px;
+        width: 100%;
+       
+      }
+
+      .know-me{
+        font-size: 1.5em;
+      }
+      .deatail-one{
+       
+      }
+      .description{
+        font-size: 1.2em;
+      }
+      .description-two{
+        font-size: 1em;
+      }
+      .description-three{
+        font-size: 0.5em;
+        text-align: left;
+      }
+      .exprience-area{
+        background-color: #0A0826;
+        border-radius: 25%;
+        height: 100px;
+        width: 100px;
+      }
+      .year{
+        font-size: 5em;
+        text-align: center;
+        color:rgba(241, 71, 29, 0.938);
+        
+       }
+       .deatail-twos{
+        display: inline;
+        gap: 50px;
+        justify-content: center;
+        
+       }
+       .deatail1 h1, p{
+        font-size: 15px;
+       }
+
+       .project-sec{
+        font-size: 1em;
+      
+       }
+       .articles{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-right: 1000px;
+       }
+       .pic-one img{
+        height: 100px;
+        width: 100px;
+       }
+       .contact-sec{
+
+       }
+       .slides{
+        display: inline;
+       }
+       .slide-one{
+        width: 200px;
+       }
+       .slide-two{
+        width: 200px;
+        margin-left: 110px;
+       }
+       input{
+        width: 200px;
+        height: 30px;
+        background-color: #0A0826;
+        color: #fff;
+        margin-bottom: 10px;
+       }
+       .all-one{
+        display: grid;
+        grid-template-columns: repeat(1fr);
+       }
+}
+
+
+
+@media (max-width:1000px) {
+      .main-section{
+        background-color: #0A0826;
+      }
+      header{
+        display: inline;
+      }
+      .about-me{
+        display:flex;
+        justify-content: center;
+      }
+      .about-me p{
+        font-size: 15px;
+      }
+      .fahad{
+        margin-left: 35px;
+        margin-bottom: 45px;
+      }
+      button{
+        padding: 5px;
+        border-radius: 5px;
+      }
+       button a{
+        font-size: 1em;
+
+       }
+      .about-me h1{
+        font-size: 15px;
+     
+      }
+      .fahad-pic img{
+        height: 100px;
+        width: 75px;
+        border-radius: 50%;
+        margin-right: 25px;
+      }
+      .work-deatails{
+        display: inline;
+        gap: 10px;
+        width: 100%;
+       
+      }
+
+      .know-me{
+        font-size: 1.5em;
+      }
+      .deatail-one{
+       
+      }
+      .description{
+        font-size: 1.2em;
+      }
+      .description-two{
+        font-size: 1em;
+      }
+      .description-three{
+        font-size: 0.5em;
+        text-align: left;
+      }
+      .exprience-area{
+        background-color: #0A0826;
+        border-radius: 25%;
+        height: 100px;
+        width: 100px;
+      }
+      .year{
+        font-size: 5em;
+        text-align: center;
+        color:rgba(241, 71, 29, 0.938);
+        
+       }
+       .deatail-twos{
+        display: inline;
+        gap: 50px;
+        justify-content: center;
+        
+       }
+       .deatail1 h1, p{
+        font-size: 15px;
+       }
+
+       .project-sec{
+        font-size: 1em;
+      
+       }
+       .articles{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-right: 1000px;
+       }
+       .pic-one img{
+        height: 100px;
+        width: 100px;
+       }
+       .contact-sec{
+
+       }
+       .slides{
+        display: inline;
+       }
+       .slide-one{
+        width: 200px;
+       }
+       .slide-two{
+        width: 200px;
+        margin-left: 110px;
+       }
+       input{
+        width: 200px;
+        height: 30px;
+        background-color: #0A0826;
+        color: #fff;
+        margin-bottom: 10px;
+       }
+       .all-one{
+        display: grid;
+        grid-template-columns: repeat(1fr);
+       }
+}
